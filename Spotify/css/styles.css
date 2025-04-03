@@ -1,0 +1,48 @@
+/* :root ALGO NO VA BIEN AQUI
+{
+    --brand-color:var(#519cf0);
+    --brand-font:var(arial, sans-serif)
+} */
+* {
+    padding: 0;
+    margin: 0;
+    }
+.header {
+    background-color: black;
+    padding: 5px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+        }
+
+.logo {
+    width: 15%;
+}
+.sublogo {
+    width: 100%;    
+}
+
+.navegacion {
+   width: 15%; 
+   display: flex;
+   justify-content: flex-end;
+}
+.menu_hamburguesa {
+    width: 35%;
+    }
+
+.prueba {
+    padding-top: 55px;
+    font-size: 35px
+}
+
+.footer {
+    background: black;
+    color: white;
+}
+/* HAY QUE REVISAR CON LAS BRAND TAGS */
+.blue {
+    background-color: #519cf0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
