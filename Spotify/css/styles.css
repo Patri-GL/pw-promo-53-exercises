@@ -7,7 +7,7 @@
     font-style: normal;
     font-variation-settings:
     "wdth" 100; 
-    
+    font-size: 1rem;
     --brand-padding: 10px;   
 }
 * {
@@ -50,10 +50,9 @@
     background: black;
     color: white;
 }
-/* HAY QUE REVISAR CON LAS BRAND TAGS */
+
 .hero {
     background-color: var(--brand-color);
-   
     color: white;
     padding: var(--brand-padding);
 }
@@ -62,5 +61,35 @@
 .box { 
     height: 50%;
     border: solid 3px red;
-
 };
+
+/* #boton {
+    background-color: #25B758;
+    color: white;
+    border: none;
+} */
+
+
+.benefits {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.photo_benefit {
+    width: 25%;
+}
+.article_benefit {
+    display:inline-flex;
+    /* border: solid 3px; */
+    margin-inline: auto;
+    gap: 5%;
+    }
+
+.div_benefit {
+    padding-top: 10px;
+}
+.h2benefit {
+   text-align: center;
+}

@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Spotify</title>
@@ -28,48 +31,78 @@
       <!-- <div class="dancer" >
         <img class="dancer_img" src="/Spotify/css/img/premium_dancer.png" alt="chica bailando">
       </div> -->
-      <p>
+      <h3 class="escucha">
         Escucha millones de canciones sin anuncios, a la carta y sin conexión.
-      </p>
-      <input class="boton" type="button" value="VER PLANES" />
-      <p>
+      </h3>
+      <button type="button" id="boton">VER PLANES</button>
+      <p class="terms">
         Rigen términos y condiciones. Los tres meses gratis no están disponibles
         para usuarios que ya hayan probado Premium
       </p>
     </section>
 
-    <section class="box white">
-      <h2>¿Por qué pasarte a Premium?</h2>
-      <img src="./css/img/benif01.png" alt="nota musical" />
-      <p>Descarga música.</p>
-      <p>Llévala contigo.</p>
-      <img
-        src="./css/img/benefit02.png"
-        alt="pantalla de movil con signo de explamación"
-      />
-      <p>Sin anuncios.</p>
-      <p>Disfruta de música sin interrupciones.</p>
-      <img src="./css/img/benefit03.png" alt="notas musicales diferentes" />
-      <p>Escucha lo que quieras</p>
-      <p>Incluso en el móvil</p>
-      <img
-        src="./css/img/benefit04.png"
-        alt="pantalla de móvil con símbolo de play"
-      />
-      <p>Salta todas las canciones que quieras.</p>
-      <p>Simplemente dale a siguiente.</p>
+    <section class="box benefits">
+      <article class="h2benefit">
+        <h2>
+          ¿Por qué pasarte a <br />
+          Premium?
+        </h2>
+      </article>
+      <article class="article_benefit">
+        <img
+          class="photo_benefit"
+          src="./css/img/benif01.png"
+          alt="nota musical"
+        />
+        <div class="div_benefit">
+          <h4>Descarga música.</h4>
+          <p>Llévala contigo.</p>
+        </div>
+      </article>
+      <article class="article_benefit">
+        <img
+          class="photo_benefit"
+          src="./css/img/benefit02.png"
+          alt="pantalla de movil con signo de explamación"
+        />
+        <div class="div_benefit">
+          <h4>Sin anuncios.</h4>
+          <p>Disfruta de música sin interrupciones.</p>
+        </div>
+      </article>
+      <article class="article_benefit">
+        <img
+          class="photo_benefit"
+          src="./css/img/benefit03.png"
+          alt="notas musicales diferentes"
+        />
+        <div class="div_benefit">
+          <h4>Escucha lo que quieras</h4>
+          <p>Incluso en el móvil</p>
+        </div>
+      </article>
+      <article class="article_benefit">
+        <img
+          class="photo_benefit"
+          src="./css/img/benefit04.png"
+          alt="pantalla de móvil con símbolo de play"
+        />
+        <div class="div_benefit">
+          <h4>Salta todas las canciones que quieras.</h4>
+          <p>Simplemente dale a siguiente.</p>
+        </div>
+      </article>
     </section>
 
     <footer class="footer">
-      <article>
+      <article class="footer_spain">
         España <img src="./css/img/es.svg" alt="Bandera de España" />
       </article>
-      <article>
-        <div>Legal</div>
-        <div>Cookies</div>
+      <article class="footer_legal">
+        <div>Legal Cookies</div>
         <div>&copy; Sopotify, AB</div>
       </article>
-      <article>Información sobre los anuncios</article>
+      <article class="footer_ads">Información sobre los anuncios</article>
     </footer>
   </body>
 </html>
