@@ -1,6 +1,6 @@
 # Spotify
 
-Spotify website has been created as a learning exercise within the [Adalab]( href=https://adalab.es/) context of the Web Programming Intensive Bootcamp. 
+Spotify website has been created as a learning exercise within the [Adalab](https://adalab.es/) context of the Web Programming Intensive Bootcamp. 
 
 
 
