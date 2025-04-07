@@ -8,3 +8,8 @@ Spotify website has been created as a learning exercise within the [Adalab](http
 
 - [@Chrissy-92](https://github.com/Chrissy-92)
 - [@Patri-GL](https://github.com/Patri-GL)
+
+
+## License
+
+[Creative Commons Legal Code](https://creativecommons.org/legal-code-defined/)
