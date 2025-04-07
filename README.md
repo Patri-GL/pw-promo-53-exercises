@@ -1,7 +1,6 @@
 # Spotify
 
-Spotify website has been created as a learning exercise within the [Adalab](https://adalab.es/) context of the Web Programming Intensive Bootcamp. 
-
+Spotify website has been created as a pair-programming exercise. We are part of the 53 promotion of [Adalab](https://adalab.es/) and their Web Programming Intensive Bootcamp. 
 
 
 ## Authors
@@ -13,3 +12,7 @@ Spotify website has been created as a learning exercise within the [Adalab](http
 ## License
 
 [Creative Commons Legal Code](https://creativecommons.org/legal-code-defined/)
+
+
+## Lessons Learned
+
