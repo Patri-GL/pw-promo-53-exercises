@@ -13,6 +13,10 @@ Spotify website has been created as a pair-programming exercise. We are part of 
 
 [Creative Commons Legal Code](https://creativecommons.org/legal-code-defined/)
 
+## Tech Stack
+
+- Html
+- CSS
 
 ## Lessons Learned
 
